@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ContactForm from './Phonebook/ContactForm';
 import ContactList from './Phonebook/ContactList';
 import Filter from './Phonebook/Filter';
-import styles from './Phonebook/Contact.module.css';
+import  './Phonebook/Contact.module.css';
 const App = () => {
   const [contacts, setContacts] = useState([]);
   const [filter, setFilter] = useState('');
